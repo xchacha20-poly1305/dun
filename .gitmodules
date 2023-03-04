@@ -1,0 +1,6 @@
+[submodule "sing-box"]
+	path = sing-box
+	url = https://github.com/xchacha20-poly1305/sing-box.git
+[submodule "sing-quic"]
+	path = sing-quic
+	url = https://github.com/xchacha20-poly1305/sing-quic.git

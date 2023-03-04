@@ -1,0 +1,10 @@
+.vscode
+.idea
+*.exe
+/datagen
+/dun
+*.json
+/test
+*.db
+*.srs
+/dunmain_backup
