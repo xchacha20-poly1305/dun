@@ -10,9 +10,9 @@ import (
 )
 
 func main() {
-	fmt.Println("sing-box-extra:", dunbox.Version)
+	fmt.Println("dun:", dunbox.Version)
 	fmt.Println()
 
-	// sing-box
+	// dunmain
 	dunmain.Main()
 }
