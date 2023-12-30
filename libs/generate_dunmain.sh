@@ -31,9 +31,6 @@ done
 
 IGNORE_LIST=(
     "main.go"
-    "debug.go"
-    "debug_linux.go"
-    "debug_stub.go"
     "color.go"
     "cmd_run.go"
 )
