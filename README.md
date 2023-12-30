@@ -1,5 +1,7 @@
 # dun
 
+![](https://github.com/xchacha20-poly1305/dun/actions/workflows/lint.yml/badge.svg)
+
 sing-box and some additional functionality or API.
 
 Name from: [赵盾](https://zh.wikipedia.org/wiki/赵盾)
