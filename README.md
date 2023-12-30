@@ -2,7 +2,7 @@
 
 sing-box and some additional functionality or API.
 
-Name from: [Zhao Dun](https://zh.wikipedia.org/wiki/赵盾)
+Name from: [赵盾](https://zh.wikipedia.org/wiki/赵盾)
 
 ## Version name
 
