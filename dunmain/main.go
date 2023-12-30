@@ -66,7 +66,8 @@ func preRun(cmd *cobra.Command, args []string) {
 	if workingDir != "" {
 		_, err := os.Stat(workingDir)
 		if err != nil {
-			filemanager.MkdirAll(globalCtx, workingDir, 0o777)
+			err = filemanager.MkdirAll(globalCtx, workingDir, 0o777)
+			log.Error(err)
 		}
 		err = os.Chdir(workingDir)
 		if err != nil {

@@ -46,7 +46,10 @@ func applyDebugListenOption(options option.DebugOptions) {
 
 			encoder := json.NewEncoder(writer)
 			encoder.SetIndent("", "  ")
-			encoder.Encode(memObject)
+			err := encoder.Encode(memObject)
+			if err != nil {
+				log.Error(err)
+			}
 		})
 		r.Route("/pprof", func(r chi.Router) {
 			r.HandleFunc("/", func(writer http.ResponseWriter, request *http.Request) {
