@@ -3,7 +3,7 @@ module github.com/xchacha20-poly1305/dun
 go 1.19
 
 require (
-	github.com/dustin/go-humanize v1.0.1
+	github.com/go-chi/chi/v5 v5.0.11
 	github.com/gofrs/uuid/v5 v5.0.0
 	github.com/matsuridayo/libneko v0.0.0-20230913024055-5277a5bfc889
 	github.com/oschwald/maxminddb-golang v1.12.0
@@ -22,7 +22,6 @@ require (
 	github.com/cretz/bine v0.2.0 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/gaukas/godicttls v0.0.4 // indirect
-	github.com/go-chi/chi/v5 v5.0.11 // indirect
 	github.com/go-chi/cors v1.2.1 // indirect
 	github.com/go-chi/render v1.0.3 // indirect
 	github.com/go-ole/go-ole v1.3.0 // indirect

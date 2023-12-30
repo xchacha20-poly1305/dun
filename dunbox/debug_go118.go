@@ -1,4 +1,4 @@
-//go:build go1.19
+//go:build !go1.19
 
 package dunbox
 
@@ -10,6 +10,7 @@ import (
 )
 
 func applyDebugOptions(options option.DebugOptions) {
+	applyDebugListenOption(options)
 	if options.GCPercent != nil {
 		debug.SetGCPercent(*options.GCPercent)
 	}
@@ -26,7 +27,7 @@ func applyDebugOptions(options option.DebugOptions) {
 		debug.SetTraceback(options.TraceBack)
 	}
 	if options.MemoryLimit != 0 {
-		debug.SetMemoryLimit(int64(float64(options.MemoryLimit) / 1.5))
+		// debug.SetMemoryLimit(int64(options.MemoryLimit))
 		conntrack.MemoryLimit = uint64(options.MemoryLimit)
 	}
 	if options.OOMKiller != nil {
