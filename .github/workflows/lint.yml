@@ -27,6 +27,9 @@ jobs:
         uses: actions/setup-go@v5
         with:
           go-version: ${{ steps.version.outputs.go_version }}
+      - name: Get modules
+        run: |
+          ./libs/get_source.sh
       - name: golangci-lint
         uses: golangci/golangci-lint-action@v3
         with:
