@@ -8,7 +8,7 @@ Name from: [赵盾](https://zh.wikipedia.org/wiki/赵盾)
 
 ## Version name
 
-`{sing-box-version}-dun-{dun-version}`
+`{sing-box_version}-dun-{dun_version}`
 
 ## Components
 
