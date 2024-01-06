@@ -55,7 +55,7 @@ require (
 	github.com/sagernet/quic-go v0.40.1-beta.2 // indirect
 	github.com/sagernet/reality v0.0.0-20230406110435-ee17307e7691 // indirect
 	github.com/sagernet/sing-dns v0.1.12 // indirect
-	github.com/sagernet/sing-mux v0.1.7-rc.2 // indirect
+	github.com/sagernet/sing-mux v0.1.8-rc.1 // indirect
 	github.com/sagernet/sing-quic v1.0.0 // indirect
 	github.com/sagernet/sing-shadowsocks v0.2.6 // indirect
 	github.com/sagernet/sing-shadowsocks2 v0.1.6-rc.1 // indirect
