@@ -8,7 +8,7 @@ require (
 	github.com/matsuridayo/libneko v0.0.0-20230913024055-5277a5bfc889
 	github.com/oschwald/maxminddb-golang v1.12.0
 	github.com/sagernet/sing v0.3.0-rc.7
-	github.com/sagernet/sing-box v1.0.0 // replaced
+	github.com/sagernet/sing-box v1.8.0 // replaced
 	github.com/spf13/cobra v1.8.0
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20230429144221-925a1e7659e6
 )
