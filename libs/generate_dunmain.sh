@@ -29,15 +29,15 @@ for file in "$DIR"/*; do
     fi
 done
 
-IGNORE_LIST=(
-    "main.go"
-    "color.go"
-    "cmd_run.go"
-)
+# IGNORE_LIST=(
+#     "main.go"
+#     "color.go"
+#     "cmd_run.go"
+# )
 
-for IGNORE_FILE in "${IGNORE_LIST[@]}"; do
-    copy_back $IGNORE_FILE
-done
+# for IGNORE_FILE in "${IGNORE_LIST[@]}"; do
+#     copy_back $IGNORE_FILE
+# done
 
 echo ""
 echo "CHECK IT PLEASE!"
