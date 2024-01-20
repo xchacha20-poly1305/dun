@@ -92,5 +92,3 @@ require (
 replace github.com/sagernet/sing-box => ./sing-box
 
 replace github.com/sagernet/sing-quic => ./sing-quic
-
-replace encoding/json => github.com/sagernet/sing/common/json v0.3.0-rc.7
