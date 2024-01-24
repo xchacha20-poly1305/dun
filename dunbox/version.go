@@ -6,4 +6,4 @@ func init() {
 	constant.Version = Version
 }
 
-const Version = "v1.8.2-dun-0.1.6"
+const Version = "v1.8.4-dun-0.1.7"
