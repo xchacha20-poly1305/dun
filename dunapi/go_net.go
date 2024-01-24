@@ -18,11 +18,11 @@ func DialContext(ctx context.Context, box *dunbox.Box, network, addr string) (ne
 	}
 	if vs := router.V2RayServer(); vs != nil {
 		if ss, ok := vs.StatsService().(*SbStatsService); ok {
-			otb, err := router.DefaultOutbound(N.NetworkName(network))
+			outbound, err := router.DefaultOutbound(N.NetworkName(network))
 			if err != nil {
 				return nil, err
 			}
-			conn = ss.RoutedConnectionInternal("", otb.Tag(), "", conn, false)
+			conn = ss.RoutedConnectionInternal("", outbound.Tag(), "", conn, false)
 		}
 	}
 	return conn, nil
