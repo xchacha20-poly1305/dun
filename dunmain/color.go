@@ -1,14 +1,10 @@
 package dunmain
 
 import (
-	"context"
-	"os"
-	"time"
-
-	"github.com/sagernet/sing-box/log"
+	"github.com/xchacha20-poly1305/dun/dunbox"
 )
 
 func DisableColor() {
 	disableColor = true
-	log.SetStdLogger(log.NewDefaultFactory(context.Background(), log.Formatter{BaseTime: time.Now(), DisableColors: true}, os.Stderr, "", nil, false).Logger())
+	dunbox.DisableColor()
 }
