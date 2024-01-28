@@ -12,7 +12,6 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/matsuridayo/libneko/protect_server"
 	C "github.com/sagernet/sing-box/constant"
 	"github.com/sagernet/sing-box/log"
 	"github.com/sagernet/sing-box/option"
@@ -20,6 +19,7 @@ import (
 	"github.com/sagernet/sing/common/json"
 	"github.com/sagernet/sing/common/json/badjson"
 	"github.com/xchacha20-poly1305/dun/dunbox"
+	"github.com/xchacha20-poly1305/dun/protectserver"
 
 	"github.com/spf13/cobra"
 )
@@ -30,7 +30,7 @@ var commandRun = &cobra.Command{
 	Run: func(cmd *cobra.Command, args []string) {
 		if protectListenPath != "" {
 			// for v2ray now
-			go protect_server.ServeProtect(protectListenPath, true, protectFwMark, nil)
+			go protectserver.ServeProtect(protectListenPath, protectFwMark, nil)
 		}
 		err := run()
 		if err != nil {
