@@ -7,7 +7,7 @@ require (
 	github.com/gofrs/uuid/v5 v5.0.0
 	github.com/oschwald/maxminddb-golang v1.12.0
 	github.com/sagernet/sing v0.3.0
-	github.com/sagernet/sing-box v1.8.0 // replaced
+	github.com/sagernet/sing-box v1.8.4 // replaced
 	github.com/spf13/cobra v1.8.0
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20230429144221-925a1e7659e6
 )
