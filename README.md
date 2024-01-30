@@ -10,10 +10,6 @@ Name from: [赵盾](https://zh.wikipedia.org/wiki/赵盾)
 
 `{sing-box_version}-dun-{dun_version}`
 
-## Components
-
-see distro/all
-
 ### dunapi
 
 - V2Ray service API (An implementation that replaces the sing-box V2Ray option, the caller can 
