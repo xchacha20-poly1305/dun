@@ -6,8 +6,8 @@ require (
 	github.com/go-chi/chi/v5 v5.0.11
 	github.com/gofrs/uuid/v5 v5.0.0
 	github.com/oschwald/maxminddb-golang v1.12.0
-	github.com/sagernet/sing v0.3.1-beta.1
-	github.com/sagernet/sing-box v1.8.4 // replaced
+	github.com/sagernet/sing v0.3.3-beta.2
+	github.com/sagernet/sing-box v1.9.0-alpha.13 // replaced
 	github.com/spf13/cobra v1.8.0
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20230429144221-925a1e7659e6
 )
@@ -53,7 +53,7 @@ require (
 	github.com/sagernet/netlink v0.0.0-20220905062125-8043b4a9aa97 // indirect
 	github.com/sagernet/quic-go v0.41.0-beta.2 // indirect
 	github.com/sagernet/reality v0.0.0-20230406110435-ee17307e7691 // indirect
-	github.com/sagernet/sing-dns v0.2.0-beta.5 // indirect
+	github.com/sagernet/sing-dns v0.2.0-beta.7 // indirect
 	github.com/sagernet/sing-mux v0.2.0 // indirect
 	github.com/sagernet/sing-quic v1.0.0 // indirect
 	github.com/sagernet/sing-shadowsocks v0.2.6 // indirect
@@ -88,6 +88,6 @@ require (
 	lukechampine.com/blake3 v1.2.1 // indirect
 )
 
-replace github.com/sagernet/sing-box => github.com/xchacha20-poly1305/sing-box v1.9.0-alpha.9
+replace github.com/sagernet/sing-box => github.com/xchacha20-poly1305/sing-box v1.9.0-alpha.13
 
 replace github.com/sagernet/sing-quic => github.com/xchacha20-poly1305/sing-quic v0.1.9-beta.1
